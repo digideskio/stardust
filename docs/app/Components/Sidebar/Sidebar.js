@@ -50,6 +50,9 @@ export default class Sidebar extends Component {
           <img src={__BASE__ + '/logo.png'} style={{ marginRight: '1em' }} />
           <strong>UI-React Docs</strong>
         </div>
+        <Link to='introduction' className='item' activeClassName='active'>
+          Introduction
+        </Link>
         <a className='item' href='https://github.com/TechnologyAdvice/stardust'>
           <Icon name='github' /> GitHub
         </a>

@@ -4,7 +4,7 @@ import _ from 'lodash/fp'
 import React, { Component, PropTypes } from 'react'
 
 import ComponentDoc from 'docs/app/Components/ComponentDoc/ComponentDoc'
-import PageNotFound from 'docs/app/Components/PageNotFound/PageNotFound'
+import PageNotFound from 'docs/app/views/PageNotFound'
 import META from 'src/utils/Meta'
 import * as stardust from 'stardust'
 
